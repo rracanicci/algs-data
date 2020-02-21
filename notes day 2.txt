@@ -1,0 +1,25 @@
+vr y 987
+vr y 098
+az x 321
+az x 123
+
+["#vr#y"] -> [vr y 987, vr y 098]
+["#az#x"] -> [az x 321, az x 123]
+
+
+struct list_t {
+    int val;
+    list_t* next;
+}
+
+struct tree_t {
+    int val;
+    unordered_map<string, tree_t*> childs;
+}
+
+
+10 100 7 5 3 1000 -> n * log(n)
+
+2 valores maiores
+
+[10000 100 ...] -> K ->n * log(k) -> n * 10 
